@@ -2,14 +2,15 @@ import React from 'react'
 import type { Metadata } from "next";
 import Link from 'next/link';
 import Image from 'next/image';
-import { Box, Grid } from '@mui/material';
+import { Box, Button, Grid } from '@mui/material';
+import { space } from 'postcss/lib/list';
 export const metadata: Metadata = {
   title: "App Store"
 };
 
 const AppStore = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <div className='w-full h-12 bg-black'>
       </div>
       <div id='h' className='w-full h-14 py-2'>
@@ -69,7 +70,7 @@ const AppStore = () => {
           </div>
         </div>
       </div>
-      <Grid container marginTop={10} justifyContent={'space-around'} width={1000}  spacing={2} item xs={4} xl={8} lg={12} className='mx-auto'>
+      <Grid container marginTop={10} justifyContent={'space-around'} width={1000} spacing={2} item xs={4} xl={8} lg={12} className='mx-auto'>
         <Box width={400} height={500} >
           <div className='rounded-2xl pt-10'>
             <Image src="/appstore/search.svg" alt="photo" width={200} height={300} className='mx-auto' />
@@ -92,7 +93,7 @@ const AppStore = () => {
           </div>
         </Box>
       </Grid>
-      <Grid container justifyContent={'space-around'} marginTop={5} marginBottom={40}>
+      <Grid container justifyContent={'space-around'} marginTop={5} marginBottom={30}>
         <Box display={'flex'} justifyContent={'space-around'}>
           <div>
             <Image src="/appstore/details.svg" alt='photo' width={390} height={500} />
@@ -151,6 +152,140 @@ const AppStore = () => {
             <p className='text-3xl font-bold '>Apps can’t pull <br /> your data from <br /> other apps.</p>
             <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-56 mt-20' />
           </div>
+        </Box>
+      </Grid>
+      <p className='font-bold text-4xl text-center mt-40 mb-32'>Dedicated to trust and safety.</p>
+      <Grid container justifyContent={'space-around'} marginTop={1} marginBottom={3}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <div className='mt-10 ml-14 mr-3'>
+            <p className='text-3xl font-bold ml-10'>Apps must <br /> adhere to our <br /> guidelines.</p>
+            <Image src="/appstore/guidelines.svg" alt='photo' width={350} height={300} className='my-10 ' />
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72 mt-20' />
+          </div>
+          <Box width={400} height={500} marginLeft={3}>
+            <div className='rounded-2xl bg-gray-900 pt-6 w-11/12'>
+              <p className='text-5xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>Every week, over 500 dedicated experts around the world review over 100K apps.</p>
+            </div>
+          </Box>
+        </Box>
+      </Grid>
+      <Grid container justifyContent={'center'} marginTop={1}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <Box width={400} height={500} marginLeft={1} marginRight={3}>
+            <div className='rounded-2xl bg-blue-600 pt-48 w-11/12'>
+              <p className='text-3xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>Over 1M submissions rejected for objectionable, harmful, unsafe, or illegal content.</p>
+            </div>
+          </Box>
+          <div className=''>
+            <Image src="/appstore/family.svg" alt='photo' width={200} height={300} className='my-10 mx-auto' />
+            <p className='text-3xl font-bold ml-10  mt-24'>You should <br /> never have to <br /> worry about <br /> inappropri <br /> ate content.</p>
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72' />
+          </div>
+        </Box>
+      </Grid>
+      <Grid container justifyContent={'space-around'} marginTop={1} marginBottom={3}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <div className='mt-10 ml-20 mr-8'>
+            <p className='text-3xl font-bold ml-14'>No surprise <br /> purchases.</p>
+            <Image src="/appstore/payment.svg" alt='photo' width={250} height={300} className='mt-24 ml-8' />
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72 -mt-14' />
+          </div>
+          <Box width={400} height={500} marginLeft={3}>
+            <div className='rounded-2xl bg-gray-900 pt-6 w-11/12'>
+              <p className='text-5xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>Every day, moderators review worldwide App Store charts for quality and accuracy.</p>
+            </div>
+          </Box>
+        </Box>
+      </Grid>
+      <Grid container justifyContent={'space-around'} marginTop={1} marginBottom={40}>
+        <Box width={400} height={500} marginLeft={42}>
+          <div className='rounded-2xl bg-gray-900 pt-60 w-11/12'>
+            <p className='text-3xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>In 2020, we removed over <br /> 80M user <br /> reviews that were considered spam.</p>
+          </div>
+        </Box>
+        <Box width={400} height={500} marginRight={35}>
+          <div className='rounded-2xl bg-blue-600 pt-32 w-11/12'>
+            <p className='text-3xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>We have removed over 2.3M apps because they haven’t been updated or don’t work on our <br /> latest OS <br /> releases.</p>
+          </div>
+        </Box>
+      </Grid>
+      <p className='font-bold text-5xl text-center mt-40 mb-32'>Hardware and software. <br /> Powering amazing experiences <br /> together by design.</p>
+      <Grid container justifyContent={"space-around"} >
+        <Box width={1000} display={'flex'} marginBottom={8}>
+          <p className='font-bold text-3xl my-auto ml-36 sticky'>Apps help <br /> unlock the full <br /> potential of your <br /> Apple devices.</p>
+          <Image src="/appstore/apphelp.svg" alt='photo' width={600} height={600} className='-ml-20 rounded-e-2xl' />
+        </Box>
+        <Box width={1000} display={'flex'}>
+          <p className='font-bold text-3xl my-auto ml-36 sticky'>
+            We help app <br /> developers <br /> take advantage <br /> of our latest <br /> hardware  <br /> technologies.
+          </p>
+          <Image src="/appstore/developers.svg" alt='photo' width={500} height={600} className='ml-9 rounded-e-2xl' />
+        </Box>
+      </Grid>
+      <p className='font-bold text-5xl text-center mt-80 mb-32'>Download with confidence.</p>
+      <Image src="/appstore/instantly.svg" alt='' width={900} height={500} className='mx-auto' />
+      <div className='flex'>
+        <p className='font-bold text-4xl ml-80 mt-20 mb-32'>Make any app yours. Instantly.</p>
+        <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-60' />
+      </div>
+      <Grid container justifyContent={'center'} marginTop={1}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <Box width={400} height={500} marginLeft={1} marginRight={3}>
+            <div className='rounded-2xl bg-blue-600 pt-28 w-11/12'>
+              <p className='text-4xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>Over 900K apps have secure payment technologies like Apple Pay and StoreKit for goods and services.</p>
+            </div>
+          </Box>
+          <div className=''>
+            <Image src="/appstore/faceid.svg" alt='photo' width={170} height={300} className='my-20 mx-auto' />
+            <p className='text-3xl font-bold ml-10  mt-32'>Purchase safely <br /> and securely.</p>
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72' />
+          </div>
+        </Box>
+      </Grid>
+      <Grid container justifyContent={'center'} marginTop={1} marginBottom={3}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <div className='mr-8'>
+            <Image src="/appstore/report.svg" alt='photo' width={170} height={300} className='my-20 ml-20' />
+            <p className='text-3xl font-bold ml-10  mt-20'>Problem with <br /> an app? Easily <br /> report it from <br /> the App Store.</p>
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72' />
+          </div>
+          <div className='ml-10'>
+            <p className='text-3xl font-bold ml-16    mt-10'>Need a refund? <br /> AppleCare has <br /> your back.</p>
+            <Image src="/appstore/applecare.svg" alt='photo' width={250} height={300} className='my-20 ml-16' />
+            <Image src="/appstore/label.svg" alt='photo' width={30} height={500} className='ml-72 -mt-32' />
+          </div>
+        </Box>
+      </Grid>
+      <Grid container justifyContent={'center'} marginTop={1}>
+        <Box display={'flex'} justifyContent={'space-around'}>
+          <Box width={400} height={500} marginLeft={7} marginRight={2}>
+            <div className='rounded-2xl bg-gray-900 pt-28 w-11/12'>
+              <p className='text-4xl font-bold p-7 ml-3 pb-9 text-white mt-0.5'>More than 4B apps distributed each day from data centers running on 100% renewable energy.</p>
+            </div>
+          </Box>
+          <div className='mr-32 ml-11'>
+            <Image src="/appstore/currency.svg" alt='photo' width={200} height={300} className='my-20' />
+            <p className='text-3xl font-bold   mt-24'>Over 195 <br /> local payment <br /> methods and <br /> 45 currencies <br /> supported.</p>
+          </div>
+        </Box>
+      </Grid>
+      <p className='font-bold text-5xl text-center mt-40 mb-2'>News about the App Store.</p>
+      <div className='text-center'><Button className='normal-case text-blue-700 text-xl mb-10'>See all Newsroom articles</Button></div>
+      <Grid container justifyContent={'space-around'} marginLeft={20}>
+        <Box>
+          <Image src="/appstore/article.svg" alt='photo' width={400} height={300} />
+          <p className='font-bold text-xl'>Apple introduces Ask Apple for developers  </p>
+          <p className='text-xs text-gray-400 mt-10'>October 11, 2022</p>
+        </Box>
+        <Box>
+          <Image src="/appstore/latin.svg" alt='photo' width={400} height={300} />
+          <p className='font-bold text-xl'>Meet seven Hispanic and Latin app <br /> creators breaking barriers with technology</p>
+          <p className='text-xs text-gray-400 mt-3'>October 6, 2022</p>
+        </Box>
+        <Box>
+          <Image src="/appstore/shazam.jpeg" alt='photo' width={400} height={300} />
+          <p className='font-bold text-xl'>Shazam turns 20</p>
+          <p className='text-xs text-gray-400 mt-10'>August 19, 2022</p>
         </Box>
       </Grid>
     </div>
