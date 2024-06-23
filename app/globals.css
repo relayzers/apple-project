@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#hr{
+    border-color:rgb(128, 128, 128,0.5);
+    width: 1250px;
+}
+
+#card1{
+    color:#68CC45;
+}
+#card2{
+    color:#FD0052;
+}
+#card3{
+    color:#AC39FF;
+}
+#card4{
+    color:#68CC45
+}
+#big{
+    background: linear-gradient(to right,#52DDFF,#52DDFF, #52DDFF,#FF2D40,#EC3D00,#EC3D00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pro{
+    background: linear-gradient(to bottom,#FF98FF,#B300FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#se{
+    background: linear-gradient(to right,#1E3769,#3890FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#giv{
+    background-color:#010129
+}
+#bg{
+    background-color:#D22B48
+}
+#h{
+    background-color:#5C5C5D
+}
