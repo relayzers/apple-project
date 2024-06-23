@@ -338,7 +338,7 @@ const Store = () => {
         <br /><br /> 1. Special pricing available to qualified customers. To learn more about how to start qualifying toward special pricing, talk to an Apple Specialist in a store or give us a call at <br />1‑800‑MY‑APPLE.
         †† We approximate your location from your internet IP address by matching it to a geographic region or from the location entered during your previous visit to Apple.
       </p>
-      <div className='ml-28 mt-10'>
+      <div className='ml-24 mt-10'>
         <hr id='hr'/>
         <div>
           <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />

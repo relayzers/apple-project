@@ -526,7 +526,7 @@ const Iphone = () => {
           <Image src="/iphone/introducing.svg" alt='photo' width={600} height={600} />
         </Box>
       </Grid>
-      <div className='ml-28 mt-10'>
+      <div className='ml-24 mt-10'>
         <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
         <hr id='hr' />
         <div>

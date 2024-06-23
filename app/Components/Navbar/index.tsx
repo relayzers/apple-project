@@ -2,14 +2,16 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import Search from '../search'
 import { Button } from '@mui/material'
 
 const Navbar = () => {
-   
+
     return (
         <div>
-            <div className='fixed w-full  z-10'>
+            <div className='text-center bg-black h-5'>
+                <Link href="/relayzersinformation" className='text-xs text-white'>relayzers</Link>
+            </div>
+            <div className='fixed w-full   z-10'>
                 <div className='text-xs  backdrop-blur-xl backdrop-brightness-75 transform text-white'>
                     <div className=' flex w-4/5 items-center justify-around  p-2 mx-auto'>
                         <Link href='/'><Image src="/Home/applelogo.svg" alt='photo' width={20} height={50} className='mr-10' /></Link>

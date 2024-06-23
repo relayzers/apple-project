@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Box, Button, Grid } from '@mui/material';
 import { space } from 'postcss/lib/list';
+import { FaChevronRight } from 'react-icons/fa';
 export const metadata: Metadata = {
   title: "App Store"
 };
@@ -288,6 +289,26 @@ const AppStore = () => {
           <p className='text-xs text-gray-400 mt-10'>August 19, 2022</p>
         </Box>
       </Grid>
+      <div className='flex gap-6 justify-center my-10'>
+        <div className='p-3 w-[2px] rounded-full border-2 border-gray-400'> </div>
+        <div className='p-3 w-[2px] rounded-full border-2 border-black'></div>
+      </div>
+      <div className='ml-24 mt-40'>
+        <p className='text-gray-500'>* Disney+ subscription and additional fee required for Premier Access content. </p>
+        <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
+        <hr id='hr' />
+        <div>
+          <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
+        </div>
+        <div className='flex items-center'>
+          <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
+          <FaChevronRight className='text-gray-500 mx-5 mt-1' />
+          <Link href="/iphone" className='my-0.5 text-gray-700'>iPhone</Link>
+        </div>
+        <div>
+          <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
+        </div>
+      </div>
     </div>
   )
 }
