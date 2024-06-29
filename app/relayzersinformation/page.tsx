@@ -16,7 +16,7 @@ const page = () => {
             <Grid container justifyContent={'space-around'} marginY={10} marginRight={10} spacing={4}>
                 <Grid width={200} height={200} item xs={12} sm={6} md={4} lg={2} xl={1} >
                     <div className='rounded-3xl shadow-2xl transition-all hover:shadow-green-400'>
-                        <Link href="tel:+994706789125"><FaWhatsapp className='p-14  text-9xl transition-all hover:p-10  ' /></Link>
+                        <Link href="tel:+994706789125"><FaWhatsapp className='p-14  text-9xl transition-all mx-auto hover:p-10 ' /></Link>
                     </div>
                 </Grid>
                 <Grid width={200} height={200} item xs={12} sm={6} md={4} lg={2} xl={1} >
