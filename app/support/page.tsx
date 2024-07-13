@@ -71,7 +71,7 @@ const Support = () => {
       <div>
         <p className='text-3xl font-semibold text-center'>Search for topics</p>
         <div className='text-center my-3'>
-          <input type="text" placeholder="      Search Support" className='border-2 border-gray-300 pr-[500px] py-2 justify-center text-xl' />
+          <input type="text" placeholder="      Search Support" className='border-2 rounded-md border-gray-300 pr-[500px] py-2 justify-center text-xl' />
         </div>
       </div>
       <hr className='mt-20 border-gray-300' />

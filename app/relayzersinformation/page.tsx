@@ -11,7 +11,7 @@ const page = () => {
         <div className=''>
             <div className='w-full h-12 bg-black'>
             </div>
-            <p className='text-4xl font-bold  text-center mt-32 border-2 border-black p-5 transition-all w-fit mx-auto hover:bg-slate-300'>r e l a y z e r s</p>
+            <p className='text-4xl font-bold  text-center mt-20 border-2 border-black p-5 transition-all w-fit mx-auto hover:bg-slate-300'>r e l a y z e r s</p>
             <p className='text-3xl font-semibold text-center mt-5'>Communication</p>
             <Grid container justifyContent={'space-around'} marginY={10} marginRight={10} spacing={4}>
                 <Grid width={200} height={200} item xs={12} sm={6} md={4} lg={2} xl={1} >
@@ -40,7 +40,6 @@ const page = () => {
                     </div>
                 </Grid>
             </Grid>
-            <Typography className='text-4xl font-bold mt-10 text-center border-2 rounded-full w-max px-8 p-4 mx-auto border-black'><Link href="/"><Image src="/store/applelogoblack.svg" alt="" width={100} height={100} className='mx-auto' /></Link></Typography>
             <Typography className='text-4xl font-bold my-10 text-center'>Thank You Support</Typography>
 
         </div>

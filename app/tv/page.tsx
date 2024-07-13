@@ -261,21 +261,21 @@ const Tv = () => {
         </div>
         <p>“coastline” written by mehro.</p>
       </div>
-      <div className='ml-24'>
-        <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
-        <hr className='w-[1200px] border border-gray-300' />
-        <div>
-          <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
-        </div>
-        <div className='flex items-center'>
+        <div className='ml-24'>
           <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
-          <FaChevronRight className='text-gray-300 mx-5 mt-1' />
-          <Link href="/tv" className='my-0.5 text-gray-600'>TV & HOME</Link>
+          <hr className='w-[1200px] border border-gray-300' />
+          <div>
+            <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
+          </div>
+          <div className='flex items-center'>
+            <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
+            <FaChevronRight className='text-gray-300 mx-5 mt-1' />
+            <Link href="/tv" className='my-0.5 text-gray-600'>TV & HOME</Link>
+          </div>
+          <div>
+            <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
+          </div>
         </div>
-        <div>
-          <Image src="/store/applelogoblack.svg" alt='photo' width={20} height={40} />
-        </div>
-      </div>
 
 
 

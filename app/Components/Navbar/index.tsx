@@ -8,12 +8,10 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className='text-center bg-black h-5'>
-                <Link href="/relayzersinformation" className='text-xs text-white'>relayzers</Link>
-            </div>
+
             <div className='fixed w-full   z-10'>
                 <div className='text-xs  backdrop-blur-xl backdrop-brightness-75 transform text-white'>
-                    <div className=' flex w-4/5 items-center justify-around  p-2 mx-auto'>
+                    <div className=' flex w-5/6 items-center justify-center  p-2 mx-auto'>
                         <Link href='/'><Image src="/Home/applelogo.svg" alt='photo' width={20} height={50} className='mr-10' /></Link>
                         <Link href='/store' className='mr-10'>Store</Link>
                         <Link href='/not-found' className='mr-10'>Mac</Link>
@@ -28,6 +26,8 @@ const Navbar = () => {
                         <Link href='/support' className='mr-10'>Support</Link>
                         <Button><Image alt='' src="/Home/searchlogo.svg" width={20} height={50} /></Button >
                         <Link href='/appstore' className='mr-10'><Image alt='' src="/Home/shoplogo.svg" width={20} height={50} /></Link>
+                        <Link href="/relayzersinformation" className='text-xs text-white'>relayzers</Link>
+
                     </div>
                 </div>
             </div>
