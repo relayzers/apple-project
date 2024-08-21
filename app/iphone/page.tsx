@@ -13,7 +13,7 @@ const Iphone = () => {
 
   return (
     <div className='overflow-x-hidden'>
-      <div className='w-full h-12 bg-black'>
+      <div className='w-full h-10 bg-black'>
       </div>
       <Grid container justifyContent={'space-evenly'} className='mx-auto' marginBottom={5}>
         <Box>

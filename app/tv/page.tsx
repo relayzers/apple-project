@@ -118,7 +118,6 @@ const Tv = () => {
           <Image src="/tv/privacy.svg" alt='photo' width={250} height={400} className='-ml-7 cursor-pointer mt-10' />
         </Grid>
       </Grid>
-      <Image src="/tv/leftright.svg" alt='photo' width={70} height={400} className='mx-auto cursor-pointer -mt-8' />
       <p className='text-center text-5xl font-bold mt-40 leading-tight'>Accessories. Around your <br /> home and across your devices.</p>
       <div className='text-center'>
         <Button className='normal-case text-lg my-3'>Shop accessories</Button>
@@ -161,7 +160,6 @@ const Tv = () => {
           <p className='text-xs text-gray-500 text-center -mt-6'>Yale Assure Lock SL <br /> Touchscreen Deadbolt – Black</p>
         </Grid>
       </Grid>
-      <Image src='/tv/leftright.svg' alt='photo' width={70} height={400} className='mx-auto cursor-pointer mt-10' />
       <p className='text-center text-5xl font-bold mt-40 leading-tight'>Watch, sing, play, and work out. <br /> On the big screen.</p>
 
       <div>

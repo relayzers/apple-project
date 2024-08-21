@@ -108,7 +108,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>..</p>
         <Button className='normal-case mb-20'>Shop holiday gifts</Button>
       </div>
       <div className='flex justify-around rounded-xl  my-20 mx-10' id='giv'>
@@ -151,7 +150,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>...</p>
         <Button className='normal-case mb-20'>Shop all iPhone accessories</Button>
       </div>
       <p className='text-center font-bold text-5xl'>Featured iPad Accessories</p>
@@ -183,7 +181,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>..</p>
         <Button className='normal-case mb-20'>Shop all iPad accessories</Button>
       </div>
       <p className='text-center font-bold text-5xl'>Apple Watch Bands</p>
@@ -217,7 +214,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>...</p>
         <Button className='normal-case mb-20'>Shop all band</Button>
       </div>
       <p className='text-center font-bold text-5xl'>AirTag</p>
@@ -249,7 +245,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>..</p>
         <Button className='normal-case mb-20'>Shop AirTag</Button>
       </div>
       <p className='text-center font-bold text-5xl'>Sound Essentials</p>
@@ -282,7 +277,6 @@ const Accessories = () => {
         </Grid>
       </Grid>
       <div className='text-center'>
-        <p className='text-gray-400 text-center text-7xl'><span className='text-black'>.</span>..</p>
         <Button className='normal-case mb-40'>Shop Headphones and Speakers</Button>
       </div>
       <Grid container justifyContent={'space-around'} marginY={10} width={1000} marginX={30}>

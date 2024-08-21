@@ -289,10 +289,7 @@ const AppStore = () => {
           <p className='text-xs text-gray-400 mt-10'>August 19, 2022</p>
         </Box>
       </Grid>
-      <div className='flex gap-6 justify-center my-10'>
-        <div className='p-3 w-[2px] rounded-full border-2 border-gray-400'> </div>
-        <div className='p-3 w-[2px] rounded-full border-2 border-black'></div>
-      </div>
+      
       <div className='ml-24 mt-40'>
         <p className='text-gray-500'>* Disney+ subscription and additional fee required for Premier Access content. </p>
         <Image src="/store/applelogogray.svg" alt='photo' width={20} height={40} />
